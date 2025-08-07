@@ -13,7 +13,7 @@ class BankAccount:
             return False
         else:
             self.account_balance -= with_amount
-            return True
+            print("Withdrew: $" + str(self.account_balance))
 
     def display_balance(self):
         print("Current Balance: $" + str(self.account_balance))
